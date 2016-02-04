@@ -5,20 +5,20 @@ import org.apache.log4j.Logger;
 
 public class PalindromeCheck {
 
-	private static int input;
+	private static String input;
 
-	private boolean palindromeCheck(String in) {
+	private boolean palindromeCheck(String input) {
 
 		final Logger logger = Logger.getLogger(PalindromeCheck.class);
 
 		boolean isPalindrome = false;
-		int len = in.length();
+		int len = input.length();
 		System.out.println("Length of the String : " + len);
 		for (int i = 0; i <= len - i; i++) {
 			isPalindrome = false;
-			System.out.println("in.charAt(i) : " + in.charAt(i));
-			System.out.println("in.charAt(len) : " + in.charAt(len - 1));
-			if (in.charAt(i) == in.charAt(len - 1)) {
+			System.out.println("in.charAt(i) : " + input.charAt(i));
+			System.out.println("in.charAt(len) : " + input.charAt(len - 1));
+			if (input.charAt(i) == input.charAt(len - 1)) {
 				isPalindrome = true;
 			}
 			len--;
@@ -40,7 +40,7 @@ public class PalindromeCheck {
 			e.printStackTrace();
 		}
 		PalindromeCheck pal = new PalindromeCheck();
-		pal.palindromeCheck(Integer.toString(input));
+		pal.palindromeCheck(input);
 
 	}
 }
