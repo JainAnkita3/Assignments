@@ -5,6 +5,15 @@ package com.test;
  * @author ank
  */
 
+/*Properties of POJO
+
+1 All properties must public setter and getter methods
+2 All instance variables should be private
+3 Should not Extend prespecified classes.
+4 Should not Implement prespecified interfaces.
+5 Should not contain prespecified annotations.
+6 It may not have no argument constructor*/
+
 public class EmployeePojoTest {
 
 	private String name;
