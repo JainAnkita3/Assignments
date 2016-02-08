@@ -1,0 +1,19 @@
+Task List for Java Training Sessions 2016 :
+
+	1	Check if the Number is Prime
+	2	Check if the Number is even or odd
+	3	Loops :
+			Fibonacci series (1,1,2,3,5,8,13,21…)
+	4	Program on Math Operators :
+			Check if the Number is Palindrome (1221, 414) or not
+	5	Print Prime number between 1 to 100…                         
+	6	Program on Interface & Inheritance :
+			Calculator - Sum(), Diff(), Product()                      						 
+			Scientific Calculator - Square(), Cube (),Sum(), Diff(), Product()                                         
+			Regular Calculator - Sum(), Diff() , Product().
+	7	Encapsulation
+			Create a simple Pojo Class
+	8	Use OverLoading/Overriding Concepts :									
+			Create a fully Implement Calculator and ScientificCalculator  where 			
+			Calculator ==> Sum(), diff(), product(), division()								
+			SC         ==> Square(); cube(); For Input Up to 5-Numbers.
