@@ -7,7 +7,9 @@ package com.test.calPolymorphism;
 
 public interface Calculator {
 
-	public static final String battery = "AA";
+	// Need to confirm with Vasanth which should be used.
+	public final String battery = "AA";
+	// public static final String battery = "AA";
 
 	/*
 	 * This will calculate the Sum of 2 numbers.

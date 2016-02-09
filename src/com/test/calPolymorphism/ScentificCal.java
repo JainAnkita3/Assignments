@@ -11,9 +11,9 @@ import java.util.List;
 public class ScentificCal extends RegularCal implements Calculator {
 
 	private int result;
-	public static List<String> numbers = new ArrayList<String>();
+	public List<String> numbers = new ArrayList<String>();
 
-	/*	
+	/*
 	 * This will calculate the Cube of a number.
 	 */
 	public int cube(int a) {
