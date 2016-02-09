@@ -17,3 +17,6 @@ Task List for Java Training Sessions 2016 :
 			Create a fully Implement Calculator and ScientificCalculator  where 			
 			Calculator ==> Sum(), diff(), product(), division()								
 			SC         ==> Square(); cube(); For Input Up to 5-Numbers.
+	8	Scanner Class :	
+			String Operations.								
+			
