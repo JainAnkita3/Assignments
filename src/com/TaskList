@@ -18,5 +18,36 @@ Task List for Java Training Sessions 2016 :
 			Calculator ==> Sum(), diff(), product(), division()								
 			SC         ==> Square(); cube(); For Input Up to 5-Numbers.
 	8	Scanner Class :	
-			String Operations.								
+			String Operations.
+	9   Console : Use Case Statement/Loop/Exit(break or System.exit(0))
+			Welcome to Calculator
+			Press 1 to SC
+			Press 2 to RC
+			Press 3 to Exit
+			Press 4 Invalid Input 
+			If = 1
+			Thank you for choosing SC Option
+			Press 1 for Sum
+			Press 2 for Product
+			If = 1
+			Enter Value for a : 20
+			Enter value for b : 40
+			Sum is  : 60
+			Welcome to Calculator
+			Press 1 to SC
+			Press 2 to RC
+			Press 3 to Exit
+			If = 3
+			Goodbye
+	10 Constructor :
+			Create Constructor in Calculator program
+			Getter + setter
+			All method should return void value and one method getValue() should return value.
+	11 1
+	   1 2
+	   1 2 3
+	   1 2 3 4
+	   1 2 3 4 5
+			
+			
 			
