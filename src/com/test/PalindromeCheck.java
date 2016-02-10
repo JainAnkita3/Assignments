@@ -1,5 +1,10 @@
 package com.test;
 
+/*
+ * This Program will check if number is prime.
+ * @author ank
+ */
+
 import com.test.cmn.UserInputViaConsole;
 import org.apache.log4j.Logger;
 

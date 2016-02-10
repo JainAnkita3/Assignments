@@ -1,5 +1,11 @@
 package com.test;
 
+
+/*
+ * This Program will check if number is prime.
+ * @author ank
+ */
+
 public class DataTypeTest {
 
 	public static void main(String[] args) {
