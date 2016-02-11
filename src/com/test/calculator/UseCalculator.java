@@ -8,9 +8,12 @@ package com.test.calculator;
  */
 public class UseCalculator {
 
-	private static String input;
 	private static ScannerStringOper sso;
 	static boolean run = true;
+
+	public UseCalculator() {
+		sso = new ScannerStringOper();
+	}
 
 	/**
 	 * This method will instantiate the Calculator Program.
@@ -19,6 +22,9 @@ public class UseCalculator {
 	 *
 	 */
 	public static void main(String[] args) {
+		// boolean run = true;
+		String input = null;
+		UseCalculator uc = new UseCalculator();
 		while (run) {
 			System.out.println("\n ******  Welcome to Calculator  ****** \n ");
 			System.out.println(
