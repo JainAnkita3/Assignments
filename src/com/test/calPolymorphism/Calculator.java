@@ -1,8 +1,10 @@
 package com.test.calPolymorphism;
 
-/*
- * This Program will have Interface Calculator.
+/**
+ * Interface for Calculator.
+ * 
  * @author ank
+ *
  */
 
 public interface Calculator {
@@ -11,18 +13,36 @@ public interface Calculator {
 	public final String battery = "AA";
 	// public static final String battery = "AA";
 
-	/*
-	 * This will calculate the Sum of 2 numbers.
+	/**
+	 * Abstract method for sum of 2 numbers
+	 * 
+	 * @param a
+	 *            value
+	 * @param b
+	 *            value
+	 * @return
 	 */
 	public abstract int sum(int a, int b);
 
-	/*
-	 * This will calculate the Difference of 2 numbers.
+	/**
+	 * Abstract method for Difference of 2 numbers
+	 * 
+	 * @param a
+	 *            value
+	 * @param b
+	 *            value
+	 * @return
 	 */
 	public abstract int difference(int a, int b);
 
-	/*
-	 * This will calculate the Product of 2 numbers.
+	/**
+	 * Abstract method for Product of 2 numbers
+	 * 
+	 * @param a
+	 *            value
+	 * @param b
+	 *            value
+	 * @return
 	 */
 	public abstract int product(int a, int b);
 

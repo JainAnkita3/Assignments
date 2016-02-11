@@ -3,9 +3,11 @@ package com.test.calPolymorphism;
 import java.util.ArrayList;
 import java.util.List;
 
-/*
- * This Program will have Scientific Calculator.
+/**
+ * This Program will have Scientific Calculator & its operations.
+ * 
  * @author ank
+ *
  */
 
 public class ScentificCal extends RegularCal implements Calculator {
@@ -13,8 +15,12 @@ public class ScentificCal extends RegularCal implements Calculator {
 	private int result;
 	public List<String> numbers = new ArrayList<String>();
 
-	/*
-	 * This will calculate the Cube of a number.
+	/**
+	 * This will perform Cube of a number
+	 * 
+	 * @param a
+	 *            value
+	 * @return result
 	 */
 	public int cube(int a) {
 		result = (a * a * a);
@@ -23,8 +29,12 @@ public class ScentificCal extends RegularCal implements Calculator {
 
 	}
 
-	/*
-	 * This will calculate the Square of a number.
+	/**
+	 * This will perform Square of a number
+	 * 
+	 * @param a
+	 *            value
+	 * @return result
 	 */
 	public int square(int a) {
 		result = (a * a);

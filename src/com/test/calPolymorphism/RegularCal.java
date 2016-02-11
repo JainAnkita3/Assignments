@@ -1,14 +1,25 @@
 package com.test.calPolymorphism;
 
-/*
- * This Program will have Regular Calculator.
+/**
+ * This Program will have Regular Calculator & its operations.
+ * 
  * @author ank
+ *
  */
 
 public class RegularCal implements Calculator {
 
 	private int result;
 
+	/**
+	 * This will perform Sum of 2 numbers
+	 * 
+	 * @param a
+	 *            value
+	 * @param b
+	 *            value
+	 * @return
+	 */
 	@Override
 	public int sum(int a, int b) {
 		result = (a + b);
@@ -34,6 +45,15 @@ public class RegularCal implements Calculator {
 		return result;
 	}
 
+	/**
+	 * This will perform Difference of 2 numbers
+	 * 
+	 * @param a
+	 *            value
+	 * @param b
+	 *            value
+	 * @return
+	 */
 	@Override
 	public int difference(int a, int b) {
 		result = (a - b);
@@ -59,6 +79,15 @@ public class RegularCal implements Calculator {
 		return result;
 	}
 
+	/**
+	 * This will perform Product of 2 numbers
+	 * 
+	 * @param a
+	 *            value
+	 * @param b
+	 *            value
+	 * @return
+	 */
 	@Override
 	public int product(int a, int b) {
 		result = (a * b);
