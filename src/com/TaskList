@@ -59,6 +59,19 @@ Task List for Java Training Sessions 2016 :
 			  				 See attendance of Student
 			  --> Grading System :
 			  				 Display the Marks
-			  				 Show the Topper Info				 
+			  				 Show the Topper Info
+	13 Write a Data from one file to another
+	14 Input will be a Path of File, Output should be the Files Inside.
+	Eg : I/p = Windows
+	     O/P = Windows 
+	     		- temp
+	     		- 2
+	     			- 1.txt
+	     			- 2.txt
+	     		- 1.txt
+	 15 Mass Copy : Try with some readable files
+	 	I/P = Source Folder, Target Folder
+	 	O/P = Count of files has been copied from Source to target	
+	 16 Rename Option : Try			 
 			  
 			
