@@ -1,3 +1,12 @@
-Welcome to Java World
+******************************
+	Welcome to Java World
+******************************
 
-Hurraayyy!!!!
+-- Its a Source File.
+-- Copy it's content to Target File.
+-- If Target file doesn't exist, Code will create a file 'target.txt' first and than copy the content.
+
+******************************
+		End Of File
+******************************
+
