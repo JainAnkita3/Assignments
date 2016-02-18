@@ -21,12 +21,20 @@ public class CopyBulkFiles {
 		System.out.println("Total Files copied : " + n);
 	}
 
+	/**
+	 * This method will copies the folder and files
+	 * 
+	 * @param sourceFolder
+	 * @param targetFolder
+	 * @return
+	 * @throws IOException
+	 */
 	private int copyFiles(File sourceFolder, File targetFolder) throws IOException {
 		System.out.println("Source : '" + sourceFolder.getName() + "'");
 		System.out.println("Target : '" + targetFolder.getName() + "'");
 
 		if (sourceFolder.isDirectory()) {
-			// If Target folder doesn't exist, creating it
+			// If Target folder doesn't exist, create it
 			targetFolder.mkdir();
 			sourceList = sourceFolder.listFiles();
 			n = sourceList.length;
@@ -41,6 +49,7 @@ public class CopyBulkFiles {
 		// If source isn't Directory, copy the source file into Destination
 		// files
 		else {
+			// Setting n to 1, if Only file needs to copy
 			if (n == 0) {
 				n = 1;
 			}
@@ -50,6 +59,7 @@ public class CopyBulkFiles {
 			System.out.println("Input channel Size : " + in.size());
 			System.out.println("Out channel Size :  " + out.size());
 
+			// Transfers the IN data into OUT data
 			if (out != null && in != null) {
 				out.transferFrom(in, 0, in.size());
 			}
