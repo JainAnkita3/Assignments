@@ -18,19 +18,21 @@ public class CreateFileImpl {
 	private String dataToWrite = "Welcome to Java World";
 	private String fileName = "temp.txt";
 	private String fileName1 = "newTemp.txt";
+	private File dir;
 
 	/**
 	 * Constructor of createFileImpl class
 	 */
 	public CreateFileImpl() {
 		File f, f1;
+		dir = new File(path);
 		f = createFile(path, fileName);
 		writeInFile(f, dataToWrite);
 		f1 = createFile(path, fileName1);
 		renameFile(f, f1);
 		System.out.println("\n Get the Folder Structure");
 		PrintFileHierarchy p = new PrintFileHierarchy();
-		p.getFileHirerachy(path);
+		p.getChildList(dir);
 	}
 
 	/**
@@ -41,7 +43,7 @@ public class CreateFileImpl {
 	 * @return File
 	 */
 	public File createFile(String Path, String fileName) {
-		File dir = new File(path);
+		// File dir = new File(path);
 		dir.mkdirs();
 		File file = new File(dir + File.separator + fileName);
 		try {

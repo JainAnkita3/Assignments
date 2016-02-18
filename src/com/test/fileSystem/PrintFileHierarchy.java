@@ -17,12 +17,13 @@ public class PrintFileHierarchy {
 	File[] fileList;
 
 	/**
-	 * This method is use to get Folder Structure of Input
+	 * This method is use to get Folder Structure of Input.
+	 * This method is not in Use now
 	 * 
 	 * @param path
 	 * @return
 	 */
-	public String getFileHirerachy(String path) {
+	private String getFileHirerachy(String path) {
 		System.out.println("Input : " + path + "\n");
 		File folder = new File(path);
 
@@ -53,11 +54,11 @@ public class PrintFileHierarchy {
 	 * 
 	 * @param folder
 	 */
-	private void getChildList(File folder) {
+	protected void getChildList(File folder) {
 		fileList = folder.listFiles();
 		for (int i = 0; i < fileList.length; i++) {
 			if (!fileList[i].isDirectory()) {
-				System.out.println("  -- File " + fileList[i].getName());
+				System.out.println("  -- File " + fileList[i].getAbsolutePath());
 			} else {
 				System.out.println("-- Directory '" + fileList[i].getName() + "' \n child list");
 				getChildList(fileList[i]);
@@ -68,7 +69,8 @@ public class PrintFileHierarchy {
 
 	public static void main(String[] args) {
 		PrintFileHierarchy p = new PrintFileHierarchy();
-		p.getFileHirerachy(path);
+		File f = new File(path);
+		p.getChildList(f);
 	}
 
 }

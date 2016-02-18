@@ -1,5 +1,7 @@
 Task List for Java Training Sessions 2016 :
 
+http://tutorials.jenkov.com/java-nio/index.html
+
 	1	Check if the Number is Prime
 	2	Check if the Number is even or odd
 	3	Loops :
@@ -72,6 +74,9 @@ Task List for Java Training Sessions 2016 :
 	 15 Mass Copy : Try with some readable files
 	 	I/P = Source Folder, Target Folder
 	 	O/P = Count of files has been copied from Source to target	
-	 16 Rename Option : Try			 
+	 16 Rename Option : Try
+	 17 Search Operation : Using IO Packages
+	 	Input = FileName, Location
+	 	Output = File Present at those location. Like search in Windows	 
 			  
 			
