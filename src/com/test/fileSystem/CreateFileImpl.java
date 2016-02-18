@@ -40,7 +40,7 @@ public class CreateFileImpl {
 	 * @param fileName
 	 * @return File
 	 */
-	private File createFile(String Path, String fileName) {
+	public File createFile(String Path, String fileName) {
 		File dir = new File(path);
 		dir.mkdirs();
 		File file = new File(dir + File.separator + fileName);
