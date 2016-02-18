@@ -6,6 +6,12 @@ import java.io.FileOutputStream;
 import java.io.IOException;
 import java.nio.channels.FileChannel;
 
+/**
+ * This Class is responsible to Copy Bulk Files from 1 to another location
+ * 
+ * @author ank
+ *
+ */
 public class CopyBulkFiles {
 
 	private String sourceFolderPath = "//Users//rinkeshshah//Documents//Ankee//workspace//Assignments//src//com//test//fileSystem//source";
