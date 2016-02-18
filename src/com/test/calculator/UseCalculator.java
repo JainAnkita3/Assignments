@@ -12,7 +12,7 @@ public class UseCalculator {
 	static boolean run = true;
 
 	public UseCalculator() {
-		sso = new ScannerStringOper();
+		System.out.println("Inside Constructor");
 	}
 
 	/**
