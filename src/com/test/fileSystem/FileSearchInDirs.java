@@ -15,7 +15,7 @@ import java.util.List;
 
 public class FileSearchInDirs {
 
-	private String fileNm = "aa.txt";
+	private String fileNm = "a.txt";
 	private String location = "//Users//rinkeshshah//Documents//Ankee//workspace//Assignments//src//com//test//fileSystem//fileStructure//";
 	private File[] files;
 	private List<String> output = new ArrayList<String>();
@@ -28,10 +28,14 @@ public class FileSearchInDirs {
 		System.out.println("Searching.......'" + fileNm + "'");
 		try {
 			output = searchOperation(fileNm, location);
-			if (!output.isEmpty()) {
-				System.out.println("\n************************************************\n" + "   File found, at\n	"
-						+ output + "\n   Continue searching for more	"
-						+ "\n************************************************\n");
+			if (output.size() > 0) {
+				System.out.println("\n************************************************\n" + "   File found, at : \n	");
+				for (int x = 0; x < output.size(); x++) {
+					//System.out.println((output.get(x)).substring(0, output.indexOf(fileNm)));
+					System.out.println(output.get(x).indexOf(fileNm));
+					System.out.println((output.get(x)).substring(0, ((output.get(x).indexOf(fileNm)))));
+				}
+				System.out.println("\n************************************************\n");
 			} else {
 				System.out.println("\n****************************************\n"
 						+ "    No File found at given location	" + "\n****************************************\n");
