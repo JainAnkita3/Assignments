@@ -78,5 +78,14 @@ http://tutorials.jenkov.com/java-nio/index.html
 	 17 Search Operation : Using IO Packages
 	 	Input = FileName, Location
 	 	Output = File Present at those location. Like search in Windows	 
-			  
+	 18 Reverse the String : Using Stack 
+	 	I/P = "Hello Welcome to Java"
+	 	O/P = "Java to Welcome Hello"
+	 19 Sort String based on characters count: IntegerComparator
+	 	I/P = "Hello Welcome to Java"
+	 	O/P =  "to Java Hello Welcome"
+	 20 Sort Program : In Ascending order
+	 	I/P = 1,0,4,3,2
+	 	O/P = 0.1.2.3.4
+	 21 
 			

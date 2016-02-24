@@ -15,7 +15,7 @@ import java.util.List;
 
 public class FileSearchInDirs {
 
-	private String fileNm = "a.txt";
+	private String fileNm = "aa.txt";
 	private String location = "//Users//rinkeshshah//Documents//Ankee//workspace//Assignments//src//com//test//fileSystem//fileStructure//";
 	private File[] files;
 	private List<String> output = new ArrayList<String>();
