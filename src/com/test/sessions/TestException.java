@@ -1,4 +1,4 @@
-package com.test;
+package com.test.sessions;
 
 import java.util.InputMismatchException;
 import java.util.Scanner;

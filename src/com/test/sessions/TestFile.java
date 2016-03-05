@@ -1,4 +1,4 @@
-package com.test;
+package com.test.sessions;
 
 import java.io.BufferedReader;
 import java.io.File;

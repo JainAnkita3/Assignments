@@ -1,4 +1,4 @@
-package com;
+package com.test.sessions;
 
 public class TestException1 {
 

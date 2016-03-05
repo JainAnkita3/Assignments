@@ -17,7 +17,7 @@ public class SearchFileInDirDoubt {
 	File[] files;
 
 	public SearchFileInDirDoubt() {
-		System.out.println("Searching file at given location");
+		System.out.println("Searching file at given location : "  + fileNm);
 		searchOperation(fileNm, location);
 	}
 
@@ -31,18 +31,18 @@ public class SearchFileInDirDoubt {
 				System.out.println("Inside accept  :  " + fileNm);
 
 				// To get the list of all files/dir present in dir
-				files = dir.listFiles();
-				System.out.println("dir : " + dir.getName());
+				//files = dir.listFiles();
+				//System.out.println("dir : " + dir.getName());
 				// Iterating FileList to match with the given file
-				for (File file : files) {
-					System.out.println("Input File : " + fileNm);
-					System.out.println("Found file :" + file.getName());
-					if (fileNm.equalsIgnoreCase(file.getName())) {
+				//for (File file : files) {
+					//System.out.println("Input File : " + fileNm);
+					//System.out.println("Found file :" + file.getName());
+					if (fileNm.equalsIgnoreCase("d.txt")) {
 						System.out.println("aya");
 						return true;
 					}
-					break;
-				}
+					//break;
+				//}
 				return false;
 			}
 		};

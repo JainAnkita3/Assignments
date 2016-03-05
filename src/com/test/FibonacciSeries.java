@@ -15,7 +15,7 @@ import com.test.cmn.UserInputViaConsole;
 
 public class FibonacciSeries {
 
-	private int num;
+	private static int num;
 
 	/**
 	 * * This method is used to print Fibonacci series. 
