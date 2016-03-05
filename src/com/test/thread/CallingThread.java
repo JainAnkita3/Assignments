@@ -32,7 +32,7 @@ public class CallingThread {
 
 		// If Extending Thread class
 		MyExtendedThread et = new MyExtendedThread();
-		this.start();
+		et.start();
 		 System.out.println("...." + et.getState());
 
 	}

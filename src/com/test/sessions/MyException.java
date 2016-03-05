@@ -2,6 +2,8 @@ package com.test.sessions;
 
 public class MyException extends Exception {
 
+	String msg = "";
+	
 	public MyException() {
 		super();
 		
@@ -15,7 +17,7 @@ public class MyException extends Exception {
 	@Override
 	public String getMessage(){
 		System.out.println("Its a userdefine exception");
-		return e.ge;
+		return msg;
 	}
 	
 	

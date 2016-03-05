@@ -72,7 +72,7 @@ public class SortStudentByID implements Comparable<SortStudentByID> {
 	}
 
 	
-	public toString (){
+	public String toString (){
 		return "--> Name : " +name +"age " +age +"id " +id;
 		
 	}
