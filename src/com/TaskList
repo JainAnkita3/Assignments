@@ -103,3 +103,23 @@ http://tutorials.jenkov.com/java-nio/index.html
 			dept_id (Primary KEy)
 			name
 			head_id# (Foreign Key)
+	22. Hibernet Task : Use Log4j
+			Press 1  for Add
+			Press 2 for Update
+			Main method Class --> DAO Class(CRUD Operations) --> Entity Class
+				Employee (Hibernet Class)
+				EmployeeDAO  - Entity -- > Should be responsible to comm wid DB
+					init()
+					createConnections() --> Called from init()
+					getEmployee()
+					createEMp()
+					deleteEmp()
+					updateEmp()
+					CloseConnections() --> Called from init()
+				DAO --> Use init block and from this call ur Hibernet Factory i.e SessionFactory and everything should be part of init() method
+	 23. Download Below for Restfull services :    
+	 		Tomcat v7
+	 		JAX RS Jars (Java2rs.com) --> Specification (Standards)
+	 	 	Jersey/ Apache CXF/ JAva.net --> Implementation/Client
+	 	 	JAXB/Jackson --> Convert Java Object <--to/From--> JSON   (Jackson Jar), Jackson --> Can be either to use either to parse JSON String or to generate JSON data.
+	 	 	  
